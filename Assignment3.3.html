@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 3.3 : Design a HTML form and apply style</title>
+		<!-- External Style -->
+		<link rel="stylesheet" type="text/css" href="mystyle_three.css">
+		<!-- End -->
+		<!-- Internal Style Example -->
+		
+	</head>
+	<body>
+		<section>
+			<div class="main_container">
+				<div class="heading">Step 1: Your details</div>
+				<div class="sub_container">
+					<div class="container">
+						<div class="text_name">
+							Name 
+						</div>
+						<div class="text_box">
+							<input type="text" Placeholder="First and last name" />
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="container">
+						<div class="text_name">
+							Email 
+						</div>
+						<div class="text_box">
+							<input type="email" Placeholder="example@domain.com" />
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="container">
+						<div class="text_name">
+							Phone 
+						</div>
+						<div class="text_box">
+							<input type="tel" Placeholder="e.g. +447500000000" />
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="main_container">
+				<div class="heading custom_heading">Step 1: Dilivery Address</div>
+				<div class="sub_container">
+					<div class="container">
+						<div class="text_name">
+							Address 
+						</div>
+						<div class="text_box">
+							<textarea name="address" rows="4" col="22"></textarea>
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="container">
+						<div class="text_name">
+							Postcode 
+						</div>
+						<div class="text_box">
+							<input type="email"  />
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="container">
+						<div class="text_name">
+							Country 
+						</div>
+						<div class="text_box">
+							<input type="text"  />
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="main_container">
+				<div class="heading custom_heading">Step 1: Card Details</div>
+				<div class="sub_container">
+					<div class="container">
+						<div class="text_name xtext_box">
+							Card type 
+						</div>
+						<div class="text_box padding_margin">
+							<div class="cst_radio">
+								<input type="radio" />
+								<img src='visa.png' class="card_img"/><label>Visa</label>
+							</div>
+							<div class="cst_radio">
+								<input type="radio" />
+								<img src='amex.png' class="card_img"/><label>AmEx</label>
+							</div>
+							<div class="cst_radio">
+								<input type="radio" />
+								<img src='master.png' class="card_img"/><label>Mastercard</label>
+							</div>
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="container">
+						<div class="text_name">
+							Card number  
+						</div>
+						<div class="text_box">
+							<input type="text"  />
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="container">
+						<div class="text_name">
+							Security Code 
+						</div>
+						<div class="text_box">
+							<input type="text"  />
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="container">
+						<div class="text_name">
+							Name on the card
+						</div>
+						<div class="text_box">
+							<input type="text"  placeholder="exact name on the card"/>
+						</div>
+					</div>
+				</div>
+				<div class="submit_div">
+					<input type="submit" name="buy_id" value="Buy IT!" id="buy_it"/>
+				</div>	
+			</div>
+		</section>
+		
+	</body>
+</html> 

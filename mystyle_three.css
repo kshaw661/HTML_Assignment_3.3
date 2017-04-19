@@ -1,0 +1,58 @@
+body{  background-image:url('blurry-circles-wallpaper-4.jpg'); background-repeat:no-repeat; background-position:cover;}
+.heading{ margin-bottom:5px; color:#fff; font-size:16px;}
+.custom_heading{ margin:20px  0 5px 0;}
+.container{ background-color: #a8c0d8;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    opacity: 0.88;
+    padding: 10px 0;
+    width: 35%;}
+.text_name{      float: left;
+    font-weight: 600;
+    margin: 8px 0;
+    padding-left: 9px;
+    width: 30%;}
+.text_box{  }
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    padding: 5px;
+	width:55%;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding: 12px 20px;
+	width:55%;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit_div{ padding: 10px 0;
+    text-align: center;
+    width: 35%;}
+
+#buy_it {
+    background-color: #031530;
+    border-color: #031530 blue blue #031530;
+    border-left: medium none #031530;
+    border-radius: 25px;
+    border-top: medium none #031530;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 26px;
+}
+.xtext_box{ width:100%;}
+
+.card_img {
+    padding-right: 5px;
+    vertical-align: middle;
+	
+}
+.cst_radio{float:left; padding-right:18px; }
+.cst_radio:nth-child(3) {float:none;}
+.padding_margin{ padding: 0 29px;}
